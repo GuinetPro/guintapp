@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:padding="25dp"
+    >
+
+
+    <cl.guinet.webapp.custom.MycustomTextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Guinet"
+        android:textSize="25dp"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <cl.guinet.webapp.custom.MycustomTextView
+        android:layout_width="wrap_content"
+        android:paddingTop="40dp"
+android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Es un emprendimiento que ofrece desarrollo, diseño y asesoría en aplicaciones web y móviles."
+        android:layout_gravity="center_horizontal" />
+
+
+    <cl.guinet.webapp.custom.MycustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Con más de 7 años de experiencia en las ultimas tecnologías otorgando soluciones innovadoras y de alta calidad a sus clientes.
+"
+        android:layout_gravity="center_horizontal" />
+
+
+    <cl.guinet.webapp.custom.MycustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Utilizamos diferentes tecnologias para el desarrollo de sistemas desde CMS, Framework como Ruby on Rails y desarrollo móvil para Android o Iphone!"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
